@@ -1,38 +1,38 @@
-// #include <stdio.h>
-// main(){
-//     int c[2][3] = {{1,2,3},{34,23,12}};
+#include <stdio.h>
+main(){
+    int c[2][3] = {{1,2,3},{34,23,12}};
 
-//     for(int i = 0; i < 2; ++i){
-//             for( int j = 0; j < 3; ++j){
+    for(int i = 0; i < 2; ++i){
+            for( int j = 0; j < 3; ++j){
 
-//                 printf("%d\n", c[i][j]);
-//             }
-//     }
-// }
+                printf("%d\n", c[i][j]);
+            }
+    }
+}
 
 
 
-// // Program to create a two dimensional array with elements input by user
-// #include <stdio.h>
-// main(){
-//     int c[2][3];
+// Program to create a two dimensional array with elements input by user
+#include <stdio.h>
+main(){
+    int c[2][3];
 
-//     for(int i = 0; i < 2; ++i){
-//         for(int j = 0; j < 3; ++j){
-//             printf("c %d %d: ", i+1, j+1);
-//             scanf("%d", &c[i][j]);
-//         }
-//     }
+    for(int i = 0; i < 2; ++i){
+        for(int j = 0; j < 3; ++j){
+            printf("c %d %d: ", i+1, j+1);
+            scanf("%d", &c[i][j]);
+        }
+    }
     
-//     printf("The 2d array's elements are :\n");
+    printf("The 2d array's elements are :\n");
     
-//     for(int i = 0; i< 2 ; ++i){
-//         for(int j =0; j< 3; ++j){
-//             printf("%d\t", c[i][j]);
-//         }
-//         printf("\n");
-//     }
-// }
+    for(int i = 0; i< 2 ; ++i){
+        for(int j =0; j< 3; ++j){
+            printf("%d\t", c[i][j]);
+        }
+        printf("\n");
+    }
+}
 
 
 // Program to add two matrices using two dimensional array
