@@ -1,5 +1,5 @@
 #include <stdio.h>
-main(){
+int main(){
     int c[2][3] = {{1,2,3},{34,23,12}};
 
     for(int i = 0; i < 2; ++i){
@@ -8,13 +8,14 @@ main(){
                 printf("%d\n", c[i][j]);
             }
     }
+    return 0;
 }
 
 
 
 // Program to create a two dimensional array with elements input by user
 #include <stdio.h>
-main(){
+int main(){
     int c[2][3];
 
     for(int i = 0; i < 2; ++i){
@@ -32,12 +33,13 @@ main(){
         }
         printf("\n");
     }
+    return 0;
 }
 
 
 // Program to add two matrices using two dimensional array
 #include <stdio.h>
-main(){
+int main(){
     int a[2][4];
     int b[2][4];
     int result[2][4];
@@ -77,4 +79,6 @@ main(){
         }
         printf("\n");
     }
+
+    return 0;
 }
